@@ -1,5 +1,4 @@
 ### 秒杀性能配置
-
 service:
   ip_sec_access_limit: 1000
   ip_min_access_limit: 1000
@@ -38,10 +37,10 @@ http:
 
 mysql:
   host: localhost
-  port: 3396
+  port: 3306
   user: root
   pwd: 123456
-  db: sk-admin
+  db: skAdmin
 
 trace:
   host: 127.0.0.1
