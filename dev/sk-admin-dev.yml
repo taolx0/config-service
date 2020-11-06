@@ -1,4 +1,5 @@
 ### 秒杀性能配置
+
 service:
   ip_sec_access_limit: 1000
   ip_min_access_limit: 1000
