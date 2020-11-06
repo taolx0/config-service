@@ -34,6 +34,7 @@ etcd:
 
 http:
   host: localhost
+  port: 8500
 
 mysql:
   host: localhost
