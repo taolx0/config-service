@@ -16,8 +16,8 @@ service:
   CoreHandleGoroutineNum int: 10
 
 redis:
-  host: localhost
-  password: 6378
+  host: localhost:6379
+  password:
   db: 0
   proxy2layer_queue_name: name
   ip_black_list_hash: 12
