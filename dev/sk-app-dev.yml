@@ -21,10 +21,10 @@ service:
   SendToHandleChanTimeout: 500
   TokenPassWd: go
   AccessLimitConf:
-        IPSecAccessLimit: 1000000
-        UserSecAccessLimit: 1000000
-        IPMinAccessLimit: 10000000
-        UserMinAccessLimit: 10000000
+    IPSecAccessLimit: 1000000
+    UserSecAccessLimit: 1000000
+    IPMinAccessLimit: 10000000
+    UserMinAccessLimit: 10000000
 
 redis:
   host: 127.0.0.1:6379
@@ -36,7 +36,7 @@ redis:
   IpBlackListHash: IpBlackListHash
   IdBlackListQueue: IdBlackListQueue
   IpBlackListQueue: IpBlackListQueue
-  
+
 etcd:
   host: localhost
   product_key: zxfyazzaa
