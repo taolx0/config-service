@@ -15,7 +15,7 @@ service:
   CoreHandleGoroutineNum: 20
   AppWaitResultTimeout: 500
   CoreWaitResultTimeout: 500
-  MaxRequestWaitTimeout: 500
+  MaxRequestWaitTimeout: 50000000
   SendToWriteChanTimeout: 500
   SendToHandleChanTimeout: 500
   TokenPassWd: go
